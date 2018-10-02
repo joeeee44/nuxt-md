@@ -1,4 +1,4 @@
-# notes
+# nuxt-md
 
 > My astounding Nuxt.js project
 
