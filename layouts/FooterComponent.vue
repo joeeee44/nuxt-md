@@ -13,12 +13,11 @@
 
 <style lang="scss" scoped>
 footer {
-  position: fixed;
-  bottom: 0;
   width: 100%;
   height: 50px;
   background: #24292e;
   color: #fff;
+  position: relative;
 }
 
 .produced {

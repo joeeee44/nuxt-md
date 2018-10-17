@@ -3,7 +3,9 @@
     <no-ssr>
       <header-component/>
     </no-ssr>
-    <nuxt/>
+    <section class="container">
+      <nuxt/>
+    </section>
     <no-ssr>
       <footer-component/>
     </no-ssr>
@@ -11,6 +13,7 @@
 </template>
 
 <style lang="scss">
+/* @import url(http://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/styles/monokai.min.css); */
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -32,7 +35,6 @@ html {
 
 body {
   padding-top: 50px;
-  padding-bottom: 50px;
 }
 
 .button--green {
@@ -65,11 +67,12 @@ body {
 }
 
 .container {
-  min-height: 100vh;
+  min-height: calc(100vh - 100px);
+  padding: 5px;
   /* display: flex; */
   /* justify-content: center; */
   /* align-items: center; */
-  text-align: center;
+  /* text-align: center; */
 }
 
 .title {

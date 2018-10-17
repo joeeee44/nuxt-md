@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <div class="category-container">
 
     <div>
       <h2 class="subtitle">
@@ -12,7 +12,7 @@
       </div>
     </div>
 
-  </section>
+  </div>
 </template>
 
 <script>
@@ -21,4 +21,7 @@
 </script>
 
 <style lang="scss" scoped>
+.category-container {
+  text-align: center;
+}
 </style>

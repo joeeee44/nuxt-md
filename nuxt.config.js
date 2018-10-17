@@ -26,14 +26,17 @@ module.exports = {
   /*
   ** Customize the progress-bar color
   */
-  loading: { color: '#fff' },
+  // loading: { color: '#fff' },
+  loading: { color: '#0ff' },
 
   /*
   ** Global CSS
   */
   css: [
-    // { src: '~/node_modules/highlight.js/styles/hopscotch.css', lang: 'css' }
-    { src: '~/node_modules/highlight.js/styles/atom-one-dark.css', lang: 'css' }
+    {
+      src: '~/node_modules/highlight.js/styles/atom-one-light.css',
+      lang: 'scss'
+    }
   ],
 
   /*

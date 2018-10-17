@@ -1,6 +1,8 @@
 <template>
   <header>
-    <h1 class="header-title">notes</h1>
+    <nuxt-link to="/">
+      <h1 class="header-title">nuxt-md</h1>
+    </nuxt-link>
   </header>
 </template>
 
@@ -19,6 +21,9 @@ header {
   height: 50px;
   background: #24292e;
   color: #fff;
+  a {
+    text-decoration: none;
+  }
 }
 
 .header-title {
