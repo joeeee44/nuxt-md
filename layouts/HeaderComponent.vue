@@ -34,6 +34,6 @@ header {
   font-size: 35px;
   color: #fff;
   letter-spacing: 1px;
-  padding: 9px;
+  padding: 5px 10px;
 }
 </style>
